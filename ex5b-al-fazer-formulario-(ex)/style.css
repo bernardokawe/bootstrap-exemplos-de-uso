@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f7fa;
+
+   background: linear-gradient(135deg, #ff0000, #8b0000);
+}
+
+.login-card {
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow:  0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form-control{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.form-control:focus{
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108,99,255,0.5);
+}
+
+
+.btn-custom {
+    border-radius: 10px;
+    background: #df0505;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-custom:hover{
+     background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  transform: scale(1.05);
+}
